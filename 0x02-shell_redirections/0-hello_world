@@ -1,2 +1,3 @@
 #!/bin/bash
-"Hello, World"
+printf "Hello World"
+"i am a boy" > 0-hello_world
