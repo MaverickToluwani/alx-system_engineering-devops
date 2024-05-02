@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# loops through and prints Best school until condition is met 
+
+i=0
+
+until [ $i -eq 10 ]
+do
+	echo "Best School"
+	((i++))
+done
