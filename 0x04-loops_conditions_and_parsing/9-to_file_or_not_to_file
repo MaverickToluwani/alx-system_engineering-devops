@@ -2,20 +2,20 @@
 # Script checks weather a file exists or not
 # if file exists is checks weather it is empty or not
 
-filename='./school'
+filename='school'
 
 if [ -e "$filename" ]
 then
         echo "School file exists"
 
-        if [ -s "$filename" ] #checks if file is not zero size
+        if [ -s "$filename" ]
         then
                 echo "School file is not empty"
         else
                 echo "school file is empty"
         fi
 
-        if [ -f "$filename" ] #checks if file is a regualr file
+        if [ -f "$filename" ]
         then
                 echo "school is a regualr file"
         fi
