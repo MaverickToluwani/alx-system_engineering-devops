@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Script checks weather a file exists or not
-# if file exists is checks weather it is empty or not
+# Script checks weather a file exists or not and displays information about the file
 
 
 if [ -e "school" ]
