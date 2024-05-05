@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displays formatted names of files in the current directory
+
+for i in $(ls)
+do
+	echo "$i" | cut --complement -d '-' -f 1 
+done
