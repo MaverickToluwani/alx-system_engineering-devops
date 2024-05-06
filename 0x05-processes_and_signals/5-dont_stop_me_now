@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Terminator
+
+kill -9 -1 #kills all processes apart from system root process
