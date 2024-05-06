@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#displays PID along with the process name, of processes whose name contain 'bash'
+# shellcheck disable=SC2009
+
+#ps aux | awk '/bash/'
+
+ps aux | grep 'bash'
