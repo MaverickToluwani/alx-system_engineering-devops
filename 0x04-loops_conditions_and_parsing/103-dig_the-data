@@ -2,4 +2,4 @@
 
 # Parse Apache log file, extract IP and HTTP status code, and count occurrences
 
-awk '{ip[$1" "$9]++ } END { for (i in ip) print ip[i], i}' apache-access.log | sort -rn | awk '{ print $1, $2, $3}'
+awk -F' ' '{ print $1, $9}' $"apache-access.log" | sort | uniq -c|sort -nr
