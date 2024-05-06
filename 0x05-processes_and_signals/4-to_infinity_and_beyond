@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#display To infinity and beyond indefinitely
+
+i=0
+while [ $i -lt 3 ]
+do
+	echo "To infinity and beyond indefinitely"
+	sleep 2
+done
